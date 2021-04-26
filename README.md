@@ -59,9 +59,14 @@ Note : {HELM_INSTALL_DIR:="/usr/local/bin"
 # deployment.yml
 ![image](https://user-images.githubusercontent.com/54719289/116131600-7f088e00-a6c4-11eb-8eef-d44e8f045d5a.png)
 
-# values.yml   -- if we dont update fullOverride then it will take default value (want to update imagename during runtime we can use it)
+# values.yml   -- if we dont update fullOverride then it will take default value (values.yml is mainly used to update imagename during runtime)
 
 ![image](https://user-images.githubusercontent.com/54719289/116131967-e8889c80-a6c4-11eb-9e3e-d262442dc456.png)
+
+
+# The process of label updation is similar as name updation
+
+![image](https://user-images.githubusercontent.com/54719289/116132458-811f1c80-a6c5-11eb-99be-17630b77b3ac.png)
 
 
 # By default, the port no is 80 in deployment.yml, in case of changes in your application,we can update.
@@ -82,15 +87,29 @@ Note : {HELM_INSTALL_DIR:="/usr/local/bin"
 ![image](https://user-images.githubusercontent.com/54719289/116134426-c7757b00-a6c7-11eb-8698-826ce2a4ca5e.png)
 
 
+ # updated service as Loadbalancer with port 8080 in values.yml
  
+![image](https://user-images.githubusercontent.com/54719289/116134897-584c5680-a6c8-11eb-9302-8d1766c9af9c.png)
 
 
 
-# The process of label updation is similar as name updation
+# For deployment,run the below comand inside springboot-appl folder 
 
-![image](https://user-images.githubusercontent.com/54719289/116132458-811f1c80-a6c5-11eb-99be-17630b77b3ac.png)
+           helm install chart .
+           
+ ![image](https://user-images.githubusercontent.com/54719289/116135624-3f907080-a6c9-11eb-8dca-af8d7890587f.png)
 
 
+# To check the helm chart,
+
+            helm list
+            
+![image](https://user-images.githubusercontent.com/54719289/116135957-a57cf800-a6c9-11eb-81f3-0fd152f1f6e2.png)
+
+
+# Deploy the application:
+
+![image](https://user-images.githubusercontent.com/54719289/116138312-8f246b80-a6cc-11eb-8441-c0c43ef66eed.png)
 
 
 
