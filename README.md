@@ -23,7 +23,7 @@ Note : {HELM_INSTALL_DIR:="/usr/local/bin"
 
 ![image](https://user-images.githubusercontent.com/54719289/116116773-6c398d80-a6b3-11eb-8999-9de8a25a1534.png)
 
-# update the insatlled location as /mnt/c/users/ganes/bin
+# update the insatlled location as usr/bin if required
 
 ![image](https://user-images.githubusercontent.com/54719289/116117688-6ee8b280-a6b4-11eb-86a4-e4725708e4a7.png)
 
