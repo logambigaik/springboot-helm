@@ -112,9 +112,11 @@ Note : {HELM_INSTALL_DIR:="/usr/local/bin"
          
 ![image](https://user-images.githubusercontent.com/54719289/116140452-4326f600-a6cf-11eb-82a9-ac99de5e597e.png)
 
+![image](https://user-images.githubusercontent.com/54719289/116140322-1377ee00-a6cf-11eb-8a06-97bc8495d269.png)
+
 ![image](https://user-images.githubusercontent.com/54719289/116138312-8f246b80-a6cc-11eb-8441-c0c43ef66eed.png)
 
-![image](https://user-images.githubusercontent.com/54719289/116140322-1377ee00-a6cf-11eb-8a06-97bc8495d269.png)
+
 
 
 
