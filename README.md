@@ -118,6 +118,10 @@ Note : {HELM_INSTALL_DIR:="/usr/local/bin"
 
 
 
+# For deleting the helm chart : 
+
+        helm delete chart springboot-appl-0.1.0
+
 
 
  
