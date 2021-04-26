@@ -107,9 +107,14 @@ Note : {HELM_INSTALL_DIR:="/usr/local/bin"
 ![image](https://user-images.githubusercontent.com/54719289/116135957-a57cf800-a6c9-11eb-81f3-0fd152f1f6e2.png)
 
 
-# Deploy the application:
+# Deploy the application with NodePort:
+         helm install chart springboot-appl
+         
+![image](https://user-images.githubusercontent.com/54719289/116140452-4326f600-a6cf-11eb-82a9-ac99de5e597e.png)
 
 ![image](https://user-images.githubusercontent.com/54719289/116138312-8f246b80-a6cc-11eb-8441-c0c43ef66eed.png)
+
+![image](https://user-images.githubusercontent.com/54719289/116140322-1377ee00-a6cf-11eb-8a06-97bc8495d269.png)
 
 
 
