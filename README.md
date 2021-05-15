@@ -31,6 +31,11 @@ Note : {HELM_INSTALL_DIR:="/usr/local/bin"
 ![image](https://user-images.githubusercontent.com/54719289/116117688-6ee8b280-a6b4-11eb-86a4-e4725708e4a7.png)
 
 
+# Note:::Very Very Important: Pick the Docker image which has created with EXPOSE or else face issue ,
+
+![image](https://user-images.githubusercontent.com/54719289/118375567-43256200-b5ba-11eb-9ffb-7193b9b40040.png)
+
+
 # Now create helm chart for deploy application
 
         helm create springboot-application
